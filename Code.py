@@ -1,6 +1,5 @@
 import matplotlib.pyplot as plt
 import pandas as pd
-import scipy as sp
 
 file = pd.read_csv('File Path')
 
