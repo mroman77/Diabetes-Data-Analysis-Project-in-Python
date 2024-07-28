@@ -8,8 +8,7 @@ a = file.head(10)
 age = a['Age']
 glu = a['Glucose']
 
-i = True
-while i == True:
+while True:
 
     def glucose():
         plt.plot(glu, marker='o',linestyle='-', color='b')
